@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+            font-family: Cinzel, sans-serif;
+	        background-image: url("slike/pozadina1.jpg");
+            color: #333;
+            margin: 0px;
+            padding: 200px;
+            align-items: center;
+            justify-content: center;
+            height: 10vh;
+            text-align: center;
+        }
+
+        h1 {
+			font-family: Cinzel;
+            font-size: 100px;
+            color: #000333;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #000033;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 25px;
+            box-shadow: 20px 2px 40px rgba(0, 0, 0, 0.5);
+			background-color: rgba(255,255,255,0.5);
+        }
+
+        nav {
+            background-color: #ddd;
+            padding: 10px;
+			border-radius: 25px;
+            margin-top: 20px;
+			display: flex; 
+            justify-content: center; 
+			margin-left: 500px;
+			margin-right: 500px;
+			background-color: rgba(255,255,255,0.5);
+			box-shadow: 20px 2px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        nav h2 {
+            font-size: 18px;
+            color: #000033;
+            margin-bottom: 10px;
+        }
+
+        ol {
+            list-style-type: none;
+			padding: 0;
+            margin: 0; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px;
+            margin: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+			margin-right: 10px;
+        }
+
+        nav {
+             text-align: center;
+        }
+
+        ol {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        
+        .link4,
+        .link3,
+        .link2,
+        .link {
+            display: inline-block;
+            color: #fef9cc;
+            text-decoration: none;
+            margin-right: 10px;
+            padding: 10px;
+            border-radius: 10%;
+            background-color: #ffcc66;
+            transition: background-color 0.3s;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .link4:hover,
+        .link3:hover,
+        .link2:hover,
+        .link:hover {
+            background-color: #fbaa22;
+			
+        }
+
+        .link3 {
+            background-color: #22a7f0;
+        }
+
+        .link2 {
+            background-color: #8e44ad;
+        }
+
+        .link {
+            background-color: #e74c3c;
+        }
+
+		.link4 {
+            background-color: #33cc59;
+        }
+        
+        img {
+	        height: 300px;
+        }
+	
+    @font-face{
+	font-family: MonikaMiletic;
+	src: url("MonikaMiletic.ttf");
+	}
